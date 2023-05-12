@@ -60,8 +60,6 @@ function divide(a,b) {
 // output(calculator(3,2,"/"));
 // output(calculator(3,0,"/"));
 // output(calculator(3,2,"#?!"));
-
-
 function calculator(a,b,op) {
 
 switch (op) {
