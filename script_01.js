@@ -5,9 +5,9 @@
 0. a+b | a-b | a*b | a/b  --> Ergebnis c 
 
 1. Dateneingabe + -überprüfung : 
-2. Auswahl Rechenart : check
-3. Fkt. Grundrechenarten : check
-4. Ausgabe in Konsole : 
+2. Auswahl Rechenart : check!
+3. Fkt. Grundrechenarten : check!
+4. Ausgabe in Konsole : check!
 */
 
 // Konstanten
@@ -89,8 +89,17 @@ function output(outputData) {
 	console.log(outputData);
 }
 
+startApp();
+function startApp() {
+	output(calculator(getNum(),getNum(),getOp()));
+	
+}
+
+function getNum() {
+	return parseInt(prompt("Zahl?"));
+}
 
 
-
-
-
+function getOp() {
+	return prompt("Operator?");
+}
